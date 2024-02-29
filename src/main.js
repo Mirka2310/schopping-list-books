@@ -1,12 +1,9 @@
-import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import * as basicLightbox from 'basiclightbox';
-// import Swiper JS
 import Swiper from 'swiper';
-// import Swiper styles
 import 'swiper/css';
+import axios from 'axios';
 
 document.addEventListener('DOMContentLoaded', function () {
   const shoppingListTitle = document.querySelector('.shopinglist-title-item');
@@ -19,7 +16,10 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-/*import pixabayApi from './js/pixabay-api';
+/*
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
+import pixabayApi from './js/pixabay-api';
 import { renderGallery, getHtmlImageList } from './js/render-function';
 
 const galleryList = document.querySelector('.gallery-list');
