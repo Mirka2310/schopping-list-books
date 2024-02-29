@@ -1,4 +1,4 @@
-import iziToast from 'izitoast';
+/*import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
 export function getHtmlImageList(iamgesList) {
@@ -34,3 +34,4 @@ export function getHtmlImageList(iamgesList) {
 export function renderGallery(htmlImageList, galleryList) {
   galleryList.insertAdjacentHTML('beforeend', htmlImageList);
 }
+*/

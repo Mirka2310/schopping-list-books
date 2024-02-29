@@ -1,4 +1,4 @@
-import axios from 'axios';
+/*import axios from 'axios';
 
 export default class pixabayApi {
   BASE_URL = 'https://pixabay.com/api/';
@@ -30,4 +30,4 @@ export default class pixabayApi {
       throw new Error('something went wrong');
     }
   }
-}
+}*/

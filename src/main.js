@@ -2,7 +2,24 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-import pixabayApi from './js/pixabay-api';
+import * as basicLightbox from 'basiclightbox';
+// import Swiper JS
+import Swiper from 'swiper';
+// import Swiper styles
+import 'swiper/css';
+
+document.addEventListener('DOMContentLoaded', function () {
+  const shoppingListTitle = document.querySelector('.shopinglist-title-item');
+
+  // обробник подій "click"
+  shoppingListTitle.addEventListener('click', function () {
+    // Відкриття нової сторінки
+    window.location.href =
+      'https://books-backend.p.goit.global/books/category-list';
+  });
+});
+
+/*import pixabayApi from './js/pixabay-api';
 import { renderGallery, getHtmlImageList } from './js/render-function';
 
 const galleryList = document.querySelector('.gallery-list');
@@ -100,4 +117,4 @@ function htmlElementVisible(element, isVisible = false) {
 }
 
 submitQuery.addEventListener('submit', searchImages);
-loadMoreButton.addEventListener('click', loadMoreImages);
+loadMoreButton.addEventListener('click', loadMoreImages);*/
